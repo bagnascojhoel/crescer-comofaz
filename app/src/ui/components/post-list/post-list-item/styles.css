@@ -1,0 +1,28 @@
+.post {
+  display: flex;
+  flex-direction: column;
+}
+
+.post__title-container {
+  height: 50px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.post__title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.post__author {
+
+  font-size: var(--font-2);
+  color: var(--color-gray);
+  font-weight: bold;
+  line-height: 1.2rem;
+}
+
+.post__access {
+  align-self: flex-end;
+  margin-top: auto;
+}

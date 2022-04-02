@@ -1,0 +1,11 @@
+.vertical-spacing {
+  height: var(--gutter);
+}
+
+.vertical-spacing--small {
+  height: var(--small-gutter);
+}
+
+.vertical-spacing--large {
+  height: var(--large-gutter);
+}

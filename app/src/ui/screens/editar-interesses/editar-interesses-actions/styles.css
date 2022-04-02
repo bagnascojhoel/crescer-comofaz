@@ -1,0 +1,37 @@
+.editar-interesses-actions {
+  display: flex;
+  justify-content: stretch;
+
+  padding: var(--gutter);
+
+  z-index: 99;
+  position: sticky;
+  bottom: 0;
+
+  background-color: white;
+  border-top: var(--light-border);
+}
+
+.editar-interesses-actions__button {
+  flex: 1;
+  margin-right: var(--gutter);
+
+  padding: 10px 0;
+  background-color: var(--color-blue);
+  border: none;
+  border-radius: var(--border-radius);
+
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+
+.editar-interesses-actions__button--light {
+  background-color: white;
+  border: 1px solid var(--color-blue);
+  color: var(--color-blue);
+}
+
+.editar-interesses-actions__button:last-of-type {
+  margin-right: 0;
+}

@@ -1,0 +1,16 @@
+
+.exibir-comentarios-comment__layout-row {
+  margin-top: var(--small-gutter);
+  justify-content: stretch;
+  align-items: flex-start;
+}
+
+.exibir-comentarios-comment__aside-fields {
+  flex: 1;
+
+  margin-left: var(--small-gutter);
+}
+
+.exibir-comentarios-comment__select-definicao {
+  width: 100%;
+}

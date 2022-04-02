@@ -1,0 +1,18 @@
+.horizontal-divider {
+  margin: var(--large-gutter) 0;
+  height: 1px;
+  background-color: var(--color-light-gray);
+  border: none;
+}
+
+.horizontal-divider--no-margin-bottom {
+  margin-bottom: 0;
+}
+
+.horizontal-divider--hidden {
+  display: none;
+}
+
+.horizontal-divider--small-gutter {
+  margin: var(--gutter) 0;
+}

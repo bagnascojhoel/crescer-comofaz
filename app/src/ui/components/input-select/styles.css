@@ -1,0 +1,61 @@
+.input-select {
+  margin-bottom: var(--gutter);
+}
+
+.input-select--no-margin {
+  margin-bottom: 0;
+}
+
+.input-select__content-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.input-select__input__label {
+  display: inline-block;
+  margin-bottom: 3px;
+
+  color: var(--color-dark-gray);
+  font-size: var(--font-3);
+}
+
+
+.input-select__input.ant-select {
+  flex: 1;
+}
+
+.input-select__input.ant-select .ant-select-selector {
+  border-radius: var(--border-radius);
+  border: var(--light-border);
+}
+
+.input-select__input--error.ant-select .ant-select-selector {
+  border: var(--error-border);
+}
+
+.input-select__input.ant-select:hover .ant-select-selector {
+  border: var(--focused-border);
+}
+
+.input-select__input.ant-select-focused {
+  box-shadow: none;
+}
+
+.input-select__input.ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input)
+  .ant-select-selector {
+  border: var(--focused-border);
+  box-shadow: none;
+}
+
+.input-select__input .ant-select-selection-placeholder {
+  color: var(--color-dark-gray);
+}
+
+.input-select__input
+  .ant-select-single:not(.ant-select-customize-input)
+  .ant-select-selector
+  .ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+  background-color: var(--color-light-gray);
+  color: var(--color-blue);
+}

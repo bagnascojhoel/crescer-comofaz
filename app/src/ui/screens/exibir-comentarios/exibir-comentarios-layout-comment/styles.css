@@ -1,0 +1,14 @@
+.exibir-comentarios-layout-comment {
+  margin-bottom: var(--small-gutter);
+}
+
+.exibir-comentarios-layout-comment__image {
+  max-height: 100px;
+  max-width: 100%;
+  border-radius: var(--border-radius);
+  margin-bottom: var(--small-gutter);
+}
+
+.exibir-comentarios-layout-comment__text {
+  margin-bottom: 0;
+}

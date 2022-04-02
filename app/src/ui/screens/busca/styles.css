@@ -1,0 +1,27 @@
+.busca-titulo__icon {
+  margin-right: var(--gutter);
+}
+
+.busca-titulo__input {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+.busca-dificuldade {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: var(--gutter);
+  margin-bottom: var(--large-gutter);
+}
+
+.busca-dificuldade__label {
+  margin-bottom: var(--small-gutter);
+  font-weight: 300;
+  color: var(--color-gray);
+}
+
+.busca-dificuldade__input {
+  align-self: center;
+}

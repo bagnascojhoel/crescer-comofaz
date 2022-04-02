@@ -1,0 +1,40 @@
+.post-cover {
+  position: relative;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+
+  margin: var(--gutter) 0;
+  padding: var(--gutter);
+  width: 100%;
+  height: 260px;
+}
+
+.post-cover--small {
+  height: 170px;
+  margin: var(--small-gutter) 0;
+}
+
+.post-cover__background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  filter: brightness(0.8);
+}
+
+.post-cover__icon-button {
+  position: relative;
+  z-index: 1;
+}
+
+.post-cover__icon-button:hover {
+  filter: none;
+}

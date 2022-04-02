@@ -1,0 +1,25 @@
+.federated-login-button {
+  text-align: center;
+  background: none;
+  border: none;
+  max-width: 150px;
+}
+
+.federated-login-button__federation-logo {
+  display: inline-block;
+  
+
+  padding: 20px;
+
+  background-color: white;
+  border-radius: 50%;
+}
+
+.federated-login-button__text {
+  margin-top: 5px;
+
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: var(--font-2);
+  line-height: 1.2rem;
+}

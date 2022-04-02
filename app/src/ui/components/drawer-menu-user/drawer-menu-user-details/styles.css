@@ -1,0 +1,13 @@
+.drawer-menu-user-details {
+  margin-top: var(--large-gutter);
+  padding: 0 var(--large-gutter);
+}
+
+.drawer-menu-user-details__name {
+  margin-top: var(--gutter);
+  margin-bottom: 0;
+
+  font-size: var(--font-2);
+  color: var(--color-blue);
+  font-weight: bold;
+}

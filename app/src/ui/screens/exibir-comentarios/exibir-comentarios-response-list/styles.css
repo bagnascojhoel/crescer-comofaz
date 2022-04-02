@@ -1,0 +1,11 @@
+.exibir-comentarios-response-list {
+  margin: 0 var(--large-gutter) ;
+}
+
+.exibir-comentarios-response-list__content {
+  margin-top: var(--small-gutter);
+}
+
+.exibir-comentarios-response-list__texto {
+  margin-bottom: 0;
+}

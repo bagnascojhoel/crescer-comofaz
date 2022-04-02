@@ -1,0 +1,23 @@
+.search-field {
+  margin-bottom: var(--large-gutter);
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-field__icon {
+  width: 24px;
+  margin-right: var(--gutter);
+}
+
+.search-field__input {
+  padding: 10px;
+  flex-grow: 1;
+  border: var(--light-border);
+}
+
+.search-field__input:focus {
+  outline-color: var(--color-blue);
+}

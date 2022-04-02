@@ -1,0 +1,12 @@
+.outlined-content {
+  flex: 1;
+  padding: var(--small-gutter);
+  border: var(--light-border);
+  border-radius: var(--border-radius);
+}
+
+.outlined-content__text {
+  color: var(--color-dark-gray);
+  text-align: left;
+  font-size: var(--font-2);
+}

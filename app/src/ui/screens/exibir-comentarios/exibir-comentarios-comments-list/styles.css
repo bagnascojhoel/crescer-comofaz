@@ -1,0 +1,21 @@
+.exibir-comentarios-comments-list__total {
+  font-weight: bold;
+  color: var(--color-dark-gray);
+}
+
+.exibir-comentarios-comments-list__header {
+  margin: var(--gutter) 0;
+  align-items: center;
+}
+
+.exibir-comentarios-comments-list__filter {
+  width: 150px;
+  margin-bottom: 0;
+}
+
+.exibir-comentarios-comments-list--empty {
+  margin-top: var(--gutter);
+  text-align: center;
+  font-size: var(--font-3);
+  color: var(--color-dark-gray);
+}

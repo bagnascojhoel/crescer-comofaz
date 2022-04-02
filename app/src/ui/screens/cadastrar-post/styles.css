@@ -1,0 +1,14 @@
+.cadastrar-post__categories-list ul {
+  margin-top: var(--gutter);
+  max-height: 200px;
+  overflow: scroll;
+}
+
+.cadastrar-post__submit-button {
+  margin: var(--gutter) auto;
+  width: 100%;
+}
+
+.cadastrar-post__capa {
+  margin-bottom: var(--gutter);
+}

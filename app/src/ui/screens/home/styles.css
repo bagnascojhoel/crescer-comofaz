@@ -1,0 +1,13 @@
+.home-search {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+}
+
+.home-search__text {
+  margin-bottom: 0;
+}
+
+.home-search__icon {
+  margin-right: var(--gutter);
+}

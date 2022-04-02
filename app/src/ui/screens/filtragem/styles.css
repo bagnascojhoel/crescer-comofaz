@@ -1,0 +1,33 @@
+.filtrar-categorias-actions {
+  --main-color: var(--color-red);
+
+  position: absolute;
+  bottom: var(--large-gutter);
+  left: 0;
+  right: 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  align-items: center;
+}
+
+.filtrar-categorias-actions__button {
+  padding: var(--gutter) 0;
+  margin: 0 var(--gutter);
+  flex: 1;
+
+  background-color: var(--main-color);
+  border: none;
+  border-radius: var(--border-radius);
+
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+
+.filtrar-categorias-actions__button--outlined {
+  border: 1px solid var(--main-color);
+  background-color: transparent;
+  color: var(--main-color);
+}

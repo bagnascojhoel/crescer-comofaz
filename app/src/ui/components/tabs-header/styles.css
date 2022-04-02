@@ -1,0 +1,29 @@
+.tabs-header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabs-header__button {
+  flex: 1;
+  padding: 20px;
+
+  background-color: var(--color-dark-white);
+  border: none;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: var(--font-2);
+  color: var(--color-dark-gray);
+}
+
+.tabs-header__button:hover {
+  filter: none;
+}
+
+.tabs-header__button--active {
+  border-bottom: 2px solid var(--color-blue);
+  font-weight: bold;
+  color: var(--color-blue);
+}

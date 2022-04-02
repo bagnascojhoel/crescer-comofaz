@@ -1,0 +1,17 @@
+.auth-required-message__text {
+  margin: var(--large-gutter) 0;
+
+  font-size: var(--font-1);
+  font-weight: 700;
+  text-align: center;
+  color: var(--color-dark-gray);
+}
+
+.auth-required-message__button {
+  flex: 1;
+  padding: var(--gutter);
+}
+
+.auth-required-message__button--spacing {
+  margin-right: var(--gutter);
+}

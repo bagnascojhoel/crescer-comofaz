@@ -1,0 +1,20 @@
+.editar-perfil-foto {
+  margin-right: var(--gutter);
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.editar-perfil-foto__foto {
+  margin-bottom: var(--small-gutter);
+  width: 100%;
+  border-radius: var(--border-radius);
+}
+
+.editar-perfil-foto__input {
+  margin-top: var(--gutter);
+}
+
+.editar-perfil-nome {
+  flex: 1;
+}

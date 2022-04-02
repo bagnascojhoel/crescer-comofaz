@@ -1,0 +1,14 @@
+.input-text-list-item {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.input-text-list-item__input-text {
+  flex: 1;
+  margin: 0 var(--small-gutter);
+  max-height: 100%;
+
+}

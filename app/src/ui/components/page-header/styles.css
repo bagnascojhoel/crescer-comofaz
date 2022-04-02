@@ -1,0 +1,20 @@
+.page-header {
+  z-index: 2;
+  position: sticky;
+  top: 0;
+  
+  padding: var(--gutter);
+  margin-bottom: 30px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: white;
+  border-bottom: var(--light-border);
+}
+
+.page-header__logo {
+  max-height: 45px;
+}

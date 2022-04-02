@@ -1,0 +1,31 @@
+logging:
+    level:
+        org.hibernate.SQL: DEBUG
+        org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+
+spring:
+    jpa:
+        database-platform: org.hibernate.dialect.Oracle12cDialect
+        hibernate:
+            ddl-auto: validate
+    datasource:
+        hikari:
+            maximum-pool-size: 3
+        username: ALUNO6_CRE
+        password: ALUNO6_CRE
+        url: jdbc:oracle:thin:@10.99.220.86:1521:ORCL
+        driver-class-name: oracle.jdbc.OracleDriver
+    security:
+        oauth2:
+            client:
+                registration:
+                    google:
+                        client-id: 366427002792-1t6h9cr7u6mfnm8f07oqodfl0o15iklf.apps.googleusercontent.com
+                        client-secret: 5yxuXR_G9363lGV84nH97pZb
+server:
+    port: 8080
+    servlet:
+        context-path: /como-faz
+    error:
+        include-message: always
+        include-binding-errors: always

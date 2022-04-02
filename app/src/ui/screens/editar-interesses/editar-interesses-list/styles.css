@@ -1,0 +1,8 @@
+.editar-interesses-list {
+  padding: var(--gutter);
+  margin-bottom: 0;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--large-gutter);
+}

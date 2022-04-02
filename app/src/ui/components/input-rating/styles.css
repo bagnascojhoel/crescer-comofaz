@@ -1,0 +1,8 @@
+.input-rating {
+  margin-bottom: var(--gutter);
+}
+
+.input-rating__content-row {
+  display: flex;
+  align-items: center;
+}

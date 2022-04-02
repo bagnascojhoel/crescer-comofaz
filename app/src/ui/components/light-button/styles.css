@@ -1,0 +1,40 @@
+.light-button {
+  --main-color: var(--color-blue);
+
+  display: inline-flex;
+  align-items: center;
+  padding: var(--small-gutter);
+
+  background: none;
+  border: none;
+}
+
+.light-button__icon {
+  display: inline-block;
+  margin-right: var(--small-gutter);
+
+  color: var(--main-color);
+}
+
+.light-button__icon .icon {
+  color: var(--main-color);
+  fill: var(--main-color);
+}
+
+.light-button__text {
+  text-transform: uppercase;
+  color: var(--main-color);
+  font-weight: bold;
+}
+
+.light-button__text--secondary {
+  color: var(--color-dark-gray);
+}
+
+.light-button__text--mini {
+  font-size: var(--font-4);
+}
+
+.light-button--hidden {
+  display: none;
+}

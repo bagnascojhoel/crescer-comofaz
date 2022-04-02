@@ -1,0 +1,15 @@
+.icon-button {
+  padding: 0;
+  display: inline-block;
+
+  background: none;
+  border: none;
+}
+
+.icon-button:focus {
+  outline: none;
+}
+
+.icon-button__icon {
+  width: 30px;
+}

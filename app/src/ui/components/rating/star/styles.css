@@ -1,0 +1,38 @@
+.rating-star {
+  min-height: 24px;
+  width: 24px;
+  margin-right: var(--small-gutter);
+
+  background-color: transparent;
+  border: none;
+}
+
+.rating-star:last-of-type {
+  margin-right: 5px;
+}
+
+.rating-star--large {
+  width: 32px;
+}
+
+.rating-star--flexible {
+  width: 17px;
+  margin-right: 2px;
+}
+
+.rating-star--ghost {
+  align-self: stretch;
+  width: 5px;
+  margin-right: 0;
+}
+
+.rating-star__icon path {
+  transition: cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.3s;
+  /* fill: transparent; */
+  fill: var(--color-gray);
+}
+
+.rating-star--active svg path {
+  fill: var(--color-yellow);
+  /* stroke: var(--color-yellow); */
+}

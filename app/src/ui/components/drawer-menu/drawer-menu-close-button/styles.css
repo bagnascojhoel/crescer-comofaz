@@ -1,0 +1,15 @@
+.drawer-menu--right .drawer-menu__close-button > * {
+  float: right;
+}
+
+.drawer-menu__close-button {
+  padding: var(--gutter);
+  padding-bottom: 0;
+}
+
+.drawer-menu__close-button::before,
+.drawer-menu__close-button::after {
+  display: block;
+  content: '';
+  clear: both;
+}

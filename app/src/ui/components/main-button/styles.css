@@ -1,0 +1,37 @@
+.main-button {
+  padding: 20px 40px;
+
+  background-color: var(--color-blue);
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  font-size: var(--font-3);
+}
+
+.main-button--small {
+  padding: 12px;
+  border-radius: var(--border-radius-large);
+  font-size: var(--font-4);
+}
+
+.main-button--disabled,
+.main-button--disabled:hover,
+.main-button--disabled:focus {
+  filter: grayscale(1) !important;
+  cursor: not-allowed;
+}
+
+.main-button--red {
+  background-color: var(--color-red);
+}
+
+.main-button--outlined {
+  background-color: white;
+  border: 1px solid var(--color-blue);
+  color: var(--color-blue);
+}

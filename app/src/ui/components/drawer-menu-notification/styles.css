@@ -1,0 +1,29 @@
+.drawer-menu-notifications__list {
+  padding: 0 var(--gutter);
+  display: block;
+}
+
+.drawer-menu-notifications__item {
+  padding: var(--gutter) 0;
+  max-width: 100%;
+  display: block;
+
+  border-bottom: var(--light-border);
+
+  color: var(--color-dark-gray);
+}
+
+.drawer-menu-notifications__item__button {
+  display: block;
+  
+  font-size: var(--font-2);
+  line-height: 1.2rem;
+  color: inherit;
+  background: none;
+  border: none;
+}
+
+.drawer-menu-notifications__item__button:hover {
+  filter: brightness(0.8);
+  color: inherit;
+}

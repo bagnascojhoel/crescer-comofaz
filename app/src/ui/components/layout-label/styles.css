@@ -1,0 +1,7 @@
+.layout-label {
+  display: inline-flex;
+  margin-right: var(--gutter);
+  font-size: var(--font-2);
+  color: var(--color-red);
+  vertical-align: middle;
+}

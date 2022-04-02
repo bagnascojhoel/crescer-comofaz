@@ -1,0 +1,7 @@
+.subtitle {
+  margin-bottom: var(--gutter);
+
+  color: var(--color-blue);
+  font-weight: bold;
+  font-size: var(--font-1);
+}

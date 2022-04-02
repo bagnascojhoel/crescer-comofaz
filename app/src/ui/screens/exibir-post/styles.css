@@ -1,0 +1,45 @@
+.exibir-post__layout-row {
+  margin-bottom: var(--large-gutter);
+}
+
+.exibir-post-materiais,
+.exibir-post-modo-de-fazer {
+  margin-bottom: var(--large-gutter);
+}
+
+.exibir-post-materiais {
+  padding: var(--large-gutter) var(--small-gutter);
+}
+
+.exibir-post-materiais__material {
+  margin-bottom: var(--small-gutter);
+  color: var(--color-dark-gray);
+  font-size: var(--font-2);
+}
+
+.exibir-post-dica__subtitle,
+.exibir-post-dica__text {
+  color: var(--color-red);
+}
+
+.exibir-post__ver-comentarios-button {
+  margin: var(--large-gutter) 0;
+  width: 100%;
+  background-color: var(--color-yellow);
+  color: var(--color-dark-gray);
+}
+
+.exibir-post_listas_item{
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 15px 0;
+}
+
+.exibir-post__descricao {
+  display: block;
+  margin: var(--large-gutter) 0;
+  font-size: var(--font-1);
+  font-weight: 300;
+  color: var(--color-dark-gray);
+}

@@ -1,0 +1,18 @@
+.drawer-menu__background {
+  display: none;
+
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  opacity: 0.4;
+  background-color: var(--color-light-gray);
+}
+
+.drawer-menu__background--visible {
+  display: block;
+}
+

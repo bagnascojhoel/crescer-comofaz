@@ -1,0 +1,22 @@
+.layout-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.layout-row--align-center {
+  justify-content: center;
+}
+
+.layout-row--align-start {
+  justify-content: flex-start;
+}
+
+.layout-row--align-end {
+  justify-content: flex-end;
+}
+
+.layout-row--align-bottom {
+  align-items: flex-end;
+}

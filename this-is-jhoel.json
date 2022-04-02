@@ -1,0 +1,5 @@
+{
+  "title": "Crescer's ComoFaz",
+  "tags": ["crescer", "fullstack", "react", "spring"],
+  "description": "A social network for DIY posts. You can use it as a guest, but you'll have limited access. Features like creating posts, review or comment someone else's will require you to authenticate with Google. It was written in React for the frontend and Java, with Spring Boot for the backend REST API."
+}

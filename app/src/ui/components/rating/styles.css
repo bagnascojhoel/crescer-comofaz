@@ -1,0 +1,5 @@
+.rating {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+}

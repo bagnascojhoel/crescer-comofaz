@@ -1,0 +1,12 @@
+.list-gallery {
+  padding: 0;
+}
+
+.list-gallery--empty {
+  padding: var(--gutter) 0;
+  
+  text-align: center;
+  font-weight: bold;
+  font-size: var(--font-2);
+  color: var(--color-dark-gray);
+}

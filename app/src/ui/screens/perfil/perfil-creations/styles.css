@@ -1,0 +1,6 @@
+.perfil-criations__subtitle {
+  font-size: var(--font-2);
+  font-weight: 300;
+  text-transform: uppercase;
+  color: var(--color-dark-gray);
+}

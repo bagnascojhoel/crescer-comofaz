@@ -1,0 +1,20 @@
+insert into categoria (nome, foto) values ();
+
+insert into categoria (nome, foto) values ('artes', 'https://www.infoescola.com/wp-content/uploads/2013/09/noite-estrelada.jpg');
+insert into categoria (nome, foto) values ('entretenimento', 'https://cdn.consumidormoderno.com.br/wp-content/uploads/2019/05/entretenimento-editado-.jpg');
+insert into categoria (nome, foto) values ('família', 'https://turinha-static.pkds.it/blog/production/2019/12/10190458/fim-de-ano-em-familia.jpg');
+insert into categoria (nome, foto) values ('hobbies', 'https://www.auxiliadorapredial.com.br/blog/wp-content/uploads/2020/08/1408-blog-hobbies-1080x675.jpg');
+insert into categoria (nome, foto) values ('pets', 'https://i.pinimg.com/originals/e5/3d/8c/e53d8cb67881f90e6f2b25a187d38793.jpg');
+insert into categoria (nome, foto) values ('viagem', 'https://f088b146830a59b5.cdn.gocache.net/uploads/noticias/2020/03/10/3j71cgcdjw8wk.jpg');
+insert into categoria (nome, foto) values ('veículo', 'https://www.topmotors.art.br/wp-content/uploads/2019/07/20190727-images-1.jpeg');
+insert into categoria (nome, foto) values ('finanças', 'https://sindmepa.org.br/wp-content/uploads/2020/01/finan%C3%A7as-702x336.jpg');
+insert into categoria (nome, foto) values ('trabalho', 'https://ahgora.com/wp-content/uploads/2020/09/modelo-hibrido-de-trabalho-600x460.png');
+insert into categoria (nome, foto) values ('tecnologia', 'https://www.universal-rights.org/wp-content/uploads/2019/09/30212411048_2a1d7200e2_z-1.jpg');
+insert into categoria (nome, foto) values ('saúde', 'https://s3.static.brasilescola.uol.com.br/img/2019/01/alimentacao-saudavel(1).jpg');
+insert into categoria (nome, foto) values ('casa', 'https://p2.trrsf.com/image/fget/cf/460/0/images.terra.com/2020/06/17/numerologia-da-casa-15335.jpg');
+insert into categoria (nome, foto) values ('esportes', 'https://www.elase.com.br/blog/wp-content/uploads/sites/2/2020/01/Elase-PostBlog-esportes_BLOG.jpg');
+insert into categoria (nome, foto) values ('juventude', 'https://assets.folhavitoria.com.br/images/5f843900-589c-0137-1a80-6231c35b6685--minified.jpg');
+insert into categoria (nome, foto) values ('relacionamentos', 'https://www.indice.eu/img/news/2019/09/relacionamentos-positivos-aumentam-autoestima.jpg');
+insert into categoria (nome, foto) values ('comida', 'https://media.istockphoto.com/photos/american-food-with-hamburger-french-fries-pizza-picture-id1147997887');
+insert into categoria (nome, foto) values ('educação', 'https://favela.org.br/wp-content/uploads/2019/10/roda_favela_720.jpg');
+insert into categoria (nome, foto) values ('negócios', 'https://neilpatel.com/wp-content/uploads/2019/07/dona-de-negocio-de-vendas-online.jpeg');

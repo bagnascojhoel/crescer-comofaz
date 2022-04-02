@@ -1,0 +1,11 @@
+.comment {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+.comment-content__respond-button {
+  margin: var(--small-gutter) 0;
+  align-self: flex-end;
+}
+

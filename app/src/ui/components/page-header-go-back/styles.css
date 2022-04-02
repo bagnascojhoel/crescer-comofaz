@@ -1,0 +1,22 @@
+.page-header-go-back {
+  position: relative;
+
+  padding: var(--gutter);
+  margin-bottom: 30px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  border-bottom: var(--light-border);
+}
+
+.page-header-go-back__logo {
+  max-height: 45px;
+}
+
+.page-header-go-back__button {
+  position: absolute;
+  left: var(--gutter);
+}

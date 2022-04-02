@@ -1,0 +1,12 @@
+.base-button:hover {
+  cursor: pointer;
+  filter: brightness(0.9);
+}
+
+.base-button--link:hover {
+  color: white;
+}
+
+.base-button--no-hover:hover {
+  filter: none;
+}

@@ -1,0 +1,47 @@
+.editar-interesses-list-item {
+  position: relative;
+
+  padding: var(--large-gutter) var(--gutter) var(--small-gutter) var(--gutter);
+  height: 180px;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+
+  border: none;
+  overflow: hidden;
+
+  text-align: right;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: var(--font-2);
+  line-height: 1.1rem;
+  color: white;
+}
+
+.editar-interesses-list-item:hover {
+  filter: none;
+}
+
+.editar-interesses-list-item__text {
+  position: relative;
+  z-index: 1;
+}
+
+.editar-interesses-list-item__background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+
+  background-position: center;
+  background-size: cover;
+
+  filter: brightness(0.85);
+}
+
+.editar-interesses-list-item--selected {
+  box-shadow: 0 0 0 5px var(--color-red);
+}

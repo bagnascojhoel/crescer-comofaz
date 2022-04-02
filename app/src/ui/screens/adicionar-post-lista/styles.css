@@ -1,0 +1,14 @@
+.adicionar-post-lista__criar-lista-button {
+  width: 100%;
+  padding: var(--gutter);
+  background-color: var(--color-gray);
+  border: none;
+  font-weight: bold;
+  color: var(--color-dark-white);
+  font-size: var(--font-1);
+  text-align: left;
+}
+
+.adicionar-post-lista__criar-lista-form {
+  width: 100%;
+}

@@ -1,0 +1,17 @@
+.author-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.author-info--align-left {
+  justify-content: flex-start;
+}
+
+.author-info__name {
+  margin-left: var(--gutter);
+  margin-bottom: 0;
+  color: var(--color-gray);
+  font-weight: bold;
+}

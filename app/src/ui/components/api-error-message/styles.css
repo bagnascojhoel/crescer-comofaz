@@ -1,0 +1,17 @@
+.api-error-message {
+  width: 100%
+}
+
+.api-error-message__text {
+  max-width: 80%;
+  overflow-y: scroll;
+  margin-bottom: 0;
+  font-size: var(--font-2);
+  color: var(--color-dark-gray);
+}
+
+.api-error-message__icon {
+  margin-right: var(--gutter);
+  width: 15%;
+  fill: var(--color-red);
+}

@@ -1,0 +1,29 @@
+.perfil-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: var(--large-gutter);
+}
+
+.perfil-header__name {
+  margin: var(--gutter) 0;
+  
+  color: var(--color-blue);
+  font-weight: bold;
+  text-align: center;
+}
+
+.perfil-header-contributions {
+  margin-left: var(--small-gutter);
+  margin-bottom: 0;
+
+  color: var(--color-gray);
+  font-size: var(--font-3);
+}
+
+.perfil-header-contributions__icon {
+  margin-right: var(--small-gutter);
+  height: 20px;
+}

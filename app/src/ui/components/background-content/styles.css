@@ -1,0 +1,4 @@
+.background-content {
+  padding: var(--large-gutter) var(--small-gutter);
+  background-color: var(--color-dark-white);
+}

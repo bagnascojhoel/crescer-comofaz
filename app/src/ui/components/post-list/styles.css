@@ -1,0 +1,19 @@
+.post-list {
+  padding: 0;
+
+  display: grid;
+  gap: var(--large-gutter);
+  grid-template-columns: 1fr 1fr;
+}
+
+.post-list--empty {
+  padding: var(--gutter) 0;
+
+  text-align: center;
+  font-size: var(--font-2);
+  color: var(--color-dark-gray);
+}
+
+.post-list__list {
+  padding: 0;
+}

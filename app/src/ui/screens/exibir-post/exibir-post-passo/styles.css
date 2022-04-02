@@ -1,0 +1,37 @@
+.exibir-post-passo {
+  margin-bottom: var(--gutter);
+}
+
+.exibir-post-passo:last-of-type {
+  margin-bottom: 0;
+}
+
+.exibir-post-passo__title {
+  margin-bottom: var(--small-gutter);
+  font-size: var(--font-3);
+  font-weight: bold;
+  color: var(--color-dark-gray);
+}
+
+.exibir-post-passo__content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.exibir-post-passo-text {
+  width: 70%;
+  margin-bottom: 0;
+  margin-left: var(--gutter);
+  line-height: 1.2rem;
+  font-size: var(--font-2);
+  color: var(--color-dark-gray);
+}
+
+.exibir-post-passo-photo {
+  display: block;
+  width: 80px;
+  height: 80px;
+  background-position: center;
+  background-size: cover;
+}
